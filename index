@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>靜態網頁設計期末作業</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(255, 243, 226);
+            }
+            
+            header {
+                background-image: url(https://pic.52112.com/180531/JPG-180531_520/4bYFkycBvZ_small.jpg);
+                padding: 15px;
+                text-align: center;
+                font-size: 30px;
+                color: rgb(0, 0, 0);
+            }
+            /* Container for flexboxes */
+            section {
+                display: -webkit-flex;
+                display: flex;
+            }
+            
+            nav {
+                -webkit-flex: 5;
+                -ms-flex: 5;
+                flex: 5;
+                background: rgb(150, 150, 150);
+                padding: 10px 15px;
+            }
+            
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            aside {
+                padding: auto;
+                float: left;
+                width: 2.5%;
+                background-color: aquamarine;
+            }
+            
+            article {
+                float: left;
+                padding: 20px;
+                width: 95%;
+                background-color: #f1f1f1;
+            }
+
+            article h1 {
+                font-size: 35px;
+            }
+
+            article h2 {
+                font-size: 30px;
+            }
+
+            article h3 {
+                font-size: 25px;
+            }
+
+            article h4 {
+                font-size: 20px;
+            }
+            
+            footer {
+                background-color: rgb(150, 150, 150);
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+            @media (max-width: 600px) {
+                section {
+                    -webkit-flex-direction: column;
+                    flex-direction: column;
+                }
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(155, 155, 155);
+            }
+
+            ul li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: rgb(51, 51, 51);
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 15px;
+            }
+
+            li a:hover {
+                background-color: rgb(176, 209, 228);
+            }
+
+            li a:link {
+                color: teal;
+                text-decoration: none;
+            }
+
+            li a:visited {
+                color: darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h4 style="color: blue;"><a href="https://www.marieclaire.com.tw/lifestyle/taste/56253" target="_blank">文章出處:https://www.marieclaire.com.tw/lifestyle/taste/56253</a></h4>
+        <p><strong>Note : </strong>內容取自於上方文章</p>
+        <header>
+        <h2>台南地方美食</h2>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href=""><img src="/home.png" alt="" height="25" width="25"></a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/43455" target="_blank">狗啃玉米</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/56251" target="_blank">叔炸甜不辣媽</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/51069" target="_blank">花樓咖啡</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/51295" target="_blank">沼澤marsh</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/48905" target="_blank">A W K 2 Go</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/56092" target="_blank">Jiang Zhi醬汁</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/50962" target="_blank">於是麵包</a></li>
+                    <li><a href="https://www.marieclaire.com.tw/lifestyle/taste/48171" target="_blank">日子食作烘焙</a></li>
+                </ul>
+            </nav>
+        <section>
+            <aside></aside>
+            <article>
+                <h1 style="text-align: center;">2022台南IG美食推薦大公開！</h1>
+                <hr>
+                <h4>被稱為「美食之都」的台南，在街頭巷尾中隱藏了不少美食，不能錯過的傳統小吃、老宅咖啡廳、超人氣的IG打卡甜點店、吸睛度滿分的飲料店通通在這裡，一起準備好大吃特吃啦！</h4>
+                <hr>
+                <img src="https://im.marieclaire.com.tw/s800c450h100b0/assets/mc/202104/6068D4DB04C791617482971.jpeg" alt="" width="900px" height="500px" style="display: block; margin: auto;">
+                <hr>
+                <h2>狗啃玉米</h2>
+                <img src="https://im.marieclaire.com.tw/s800c450h100b0/assets/mc/201907/5D1B19502E3751562057040.jpeg" alt="">
+                <h4>近年來陸續出現許多文青的打卡景點，發展出台南獨有的特色與魅力！到台南旅遊更不能錯過獨特的美食小吃，除必吃了牛肉湯以外，這次要分享一間隱藏版的銅板美食「狗啃玉米」，一起來看看有多美味！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/201907/5D1B183C90C281562056764.jpeg" alt="">
+                <h4>狗啃玉米」是一間是碳烤珍珠玉米店，使用的新鮮玉米皆是當天現採、自產自銷的「黑珍珠糯玉米」，所有醬料都是店家自行調製的獨門配方，口味上也有多樣化的選擇，從椰香、咖哩、蒜香奶油、沙茶、海苔……等等。將採摘下來的新鮮玉米仙先水煮過後，在經過細心控制的炭火下不斷翻烤，在刷上獨家特製的醬料、撒上粉，香氣四溢的碳烤玉米就完成了！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/201907/5D1B187C9C3DC1562056828.jpeg" alt="">
+                <h4>「狗啃玉米」最讓人驚豔的是老闆發揮創意更將玉米與冰淇淋做結合，光是外型就十分吸睛，以香甜玉米取代一般的餅乾甜筒吃起來讓人更加驚喜！冰淇淋的部分是玉米牛奶口味，使用鮮奶製作而成完全任何不加水，所以融化的速度十分之快，想拍美照要好好把握時間拍好拍滿！吃起來濃郁的玉米香氣與鹹甜適中的口味，夏天品嚐更是十分清爽，不會太過甜膩！吃完冰淇淋可以好好品嚐品嚐底下的香甜「玉米杯」！</h4>
+                <p></p>
+                <h4>偷偷說近期將推出新品「爆米花玉米冰淇淋」，準備前往台南旅遊的朋友們，可以把「狗啃玉米」加入台南必吃的美食清單中！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/201907/5D1B18A447D551562056868.jpeg" alt="">
+                <hr>
+                <h2>叔炸甜不辣媽</h2>
+                <img src="https://im.marieclaire.com.tw/s800c450h100b0/assets/mc/202104/606824B3C95231617437875.jpeg" alt="">
+                <h4>台灣的特色美食除了珍珠奶茶外，當然少不了國民美食鹹酥雞啦！無論是在台灣的夜市或是街頭隨處可見，在鹹酥雞攤販中也有各式各樣的炸物可以選擇，以往只能當小配角的甜不辣，這次不讓雞排專美於前，終於換到甜不辣出頭天啦！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068235FC1C451617437535.jpeg" alt="">
+                <h4>叔炸甜不辣媽台南創始店的店面設計走簡約文青風格，將細長的甜不辣裝在薯條盒中真的太可愛啦！目前招牌共有5種口味，分別是原味、椒鹽、梅粉、芥末、朝天椒，除了招牌口味外，店內還會不定期推出期間限定口味像是炙燒起司、煉乳、巧克力、明太子、花生...等，每一種口味都讓人好想吃！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/606823819A0AA1617437569.jpeg" alt="">
+                <h4>突破大家對於炸甜不辣的想像，是以家傳的手工甜不辣切條，而其中美味的秘密藏在魚漿中加入了3種不同的魚貨，以手工製作出絕妙的好滋味。</h4>
+                <p></p>
+                <h4>有別於傳統厚實的甜不辣，這裡的甜不辣外型細長且薄度只有大約0.3公分，經過油炸至金黃後，口感更加乾香酥脆，很像在吃蝦味仙或是洋芋片的口感，而尾韻能感受到魚的鮮甜風味，最讓人驚喜的是即使冷掉了應然酥脆可口！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/606823A3813EA1617437603.jpeg" alt="">
+                <hr>
+                <h2>花樓咖啡</h2>
+                <img src="https://im.marieclaire.com.tw/s800c450h100b0/assets/mc/202007/5F07E7C3ABD771594353603.jpeg" alt="">
+                <h4>花樓三店Follow Coffee lll位在台南正興街上，必吃韓國烤吐司餐，在這裡還吃得到張三瘋的冰火菠蘿油！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E65E26D491594353246.jpeg" alt="">
+                <h4>花樓咖啡三店還有另外兩間姊妹店，花樓一店走乾燥花風格的外帶咖啡廳、二店則是由老宅改建簡約風格，搭配各式老件的質感咖啡廳！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E55511AAE1594352981.jpeg" alt="">
+                <h4>三店則是走森林系的絕美咖啡廳，三間店面風格迥異各有特色，餐點上面也有不同的選擇，三間店面都超好拍！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E5641BA361594352996.jpeg" alt="">
+                <h4>花樓三店目前是三家中販售最多餐點品項的，除了咖啡飲品外更多了義大利麵、燉飯、早午餐，以及甜點的選擇，店面外觀乍看之下沒有特別之處，進入店面穿越走廊到用餐空間讓人有別有洞天的驚艷感！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E587898801594353031.jpeg" alt="">
+                <h4>咖啡廳以老屋改建打造成玻璃屋的空間，店面更顯得寬敞明亮，最特別的是保留的斑駁的磚瓦牆面、地磚，再搭配綠意植栽、各式歐洲老件點綴下，每一個角落都獨樹一格，又能和諧地融入彼此，無論坐在哪裡都能拍出人生美照！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E597030121594353047.jpeg" alt="">
+                <h3>大人的辦家家酒/牛奶吐司餐</h3>
+                <h4>使用不加一滴水的牛奶吐司，讓大家自己烤土司，真的有種辦家家酒的感覺，自己動作做更充滿趣味！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E64E28B6F1594353230.jpeg" alt="">
+                <h4>也可以依照個人喜好佐以煉乳、花生醬、奶油、紅豆泥、鮪魚、水煮蛋……等等，創造出各式不同吃法！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E5FA652D11594353146.jpeg" alt="">
+                <p></p>
+                <h3>花樓X張三瘋冰火菠蘿油</h3>
+                <h4>在這裡吃得到之前超紅的張三瘋冰火菠蘿油！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E68547F681594353285.jpeg" alt="">
+                <h4>在外酥內軟的香酥波蘿麵包中，夾入奶油冷熱交融的口感超療癒！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E69E00A8F1594353310.jpeg" alt="">
+                <p></p>
+                <h3>伯爵紅茶千層</h3>
+                <h4>選用佛手柑香氣的格雷伯爵紅茶與牛奶和鮮奶油調製而成的伯爵奶茶香緹，入口感受清新高雅的香氣，甜而不膩，無論搭配茶飲、咖啡都非常適合！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E6B2AD4431594353330.jpeg" alt="">
+                <p></p>
+                <h3>提拉米蘇</h3>
+                <h4>品嚐得到滑順慕斯與咖啡、酒香完美結合，下午最適合一塊超療癒！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E75C5B58C1594353500.jpeg" alt="">
+                <p></p>
+                <h3>草莓咖啡拿鐵</h3>
+                <h4>咖啡搭配牛奶、草莓漸層的色彩超級美，喝起來柔順的咖啡香氣搭配草莓酸甜風味恰到好處！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E6EF4CE0F1594353391.jpeg" alt="">
+                <p></p>
+                <h3>檸檬冰美式</h3>
+                <h4>杯緣抹上一整圈的糖，咖啡苦甜滋味搭配檸檬香，喜愛美式咖啡的人必點！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F07E767C328E1594353511.jpeg" alt="">
+                <hr>
+                <h2>沼澤marsh</h2>
+                <img src="https://im.marieclaire.com.tw/s800c450h100b0/assets/mc/202007/5F1674B2562E71595307186.jpeg" alt="">
+                <h4>沼澤marsh隱身在台南老宅中的薄荷綠色仙氣咖啡廳，其實是台北河床甜點店、台南神農街海丘工作室的延伸，有別於台北河床法式甜點，沼澤marsh貼近日常的甜點，慢步調的生活，吃一口甜點、啜飲咖啡就能感受美好時光！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16730A0F0521595306762.jpeg" alt="">
+                <h4>整棟是一個複合式的空間，一樓的《青青土氣》是陶藝創作空間，包括了展覽、各式陶藝課程，有興趣的人也可以吃完甜點就來一場陶藝課吧！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167318332D71595306776.jpeg" alt="">
+                <h4>位在二樓的沼澤marsh甜點的店面大膽使用薄荷綠為主題的牆面、暖色調原木的傢俱元素、搭配老宅的磨石地板，走一種大人的可愛風格，可愛中不失質感，讓人更加放鬆舒適！﻿</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167335C7DF11595306805.jpeg" alt="">
+                <h4>沼澤marsh店家表示：「其實店由來是因為喜歡沼澤這個詞彙，沼澤是一片平靜的水，卻滋養了很多生命，期待把喜歡的日常分享在這裡。」</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167346D17181595306822.jpeg" alt="">
+                <p></p>
+                <h3>葡萄柚荔枝乳酪塔</h3>
+                <h4>每日新鮮現播、去籽的黑葉荔枝，搭配葡萄柚乳酪餡、最上方撒上些許的葡萄柚果肉、加入透明夢幻感十足的荔枝酒果凍，品嚐起來酸甜適中，是一款炎炎夏日也想大口吃的甜點！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16735BAD3771595306843.jpeg" alt="">
+                <p></p>
+                <h3>沼澤烤布丁</h3>
+                <h4>有布丁控必吃的招牌甜點「沼澤烤布丁」，使用台南小農的食材雞蛋、牛奶製成，最特別的是擺脫傳統圓形的外觀，改成方形模樣。</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16736DEE81D1595306861.jpeg" alt="">
+                <h4>每一口都吃的到焦糖與布丁結合的完美滋味！﻿最上方鮮奶油加入了咖啡、肉桂香料，是一款大人風味的烤布丁。</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16737E69AA91595306878.jpeg" alt="">
+                <p></p>
+                <h3>可麗露</h3>
+                <h4>不定期推出不同風味，一天約有5種口味可以選擇，主要以茶類為主，像是抹茶、可可焦糖、烏龍、阿薩姆奶茶、泰式奶茶，也有夾餡的可麗露像是蜜香蘋果…等等，讓大家每一次前來都能品嚐不同口味！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F1674059498A1595307013.jpeg" alt="">
+                <h4>店內的可麗露也是招牌之一，表層焦糖香氣四溢，一口咬下感受內層Ｑ彈口感，外酥內軟的多層次口感，讓人一吃就上癮！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167437E0FDD1595307063.jpeg" alt="">
+                <p></p>
+                <h3>檸檬煎茶塔</h3>
+                <h4>喜歡清爽甜點的人必吃，沼澤marsh甜點中加入茶的元素，檸檬搭配煎茶香氣吃起來更加清爽迷人！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167451813891595307089.jpeg" alt="">
+                <p></p>
+                <h3>檸檬瑪德蓮</h3>
+                <h4>外面包裹著檸檬糖霜，不會過乾帶有些許濕潤感，搭配咖啡就是最完美的下午茶！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16746388EB11595307107.jpeg" alt="">
+                <p></p>
+                <h3>檸檬糖霜磅蛋糕</h3>
+                <h4>光是外表就非常誘人，一口咬下扎實的磅蛋糕口感，伴隨檸檬香氣，喜愛磅蛋糕的人必收！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F167473DAC8B1595307123.jpeg" alt="">
+                <p></p>
+                <h3>季節氣泡飲</h3>
+                <h4>除了有咖啡可以選擇外，店內也有沁涼的氣泡飲可以選擇，搭配甜點也很適合！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202007/5F16750AECB161595307274.jpeg" alt="">
+                <hr>
+                <h2>A W K 2 Go</h2>
+                <h4>以現點現做各式口味的迷你鬆餅擄獲甜點控味蕾，店面走繽紛的日系風格，無論是想內用或是外帶都可以！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068CDBD2A08B1617481149.jpeg" alt="">
+                <h4>店內除了超人氣鬆餅外～還有一款超人氣必點的日本十勝牛奶的霜淇淋，使用北海道十勝四葉牛奶製成，濃厚的奶香味在淋上泰奶醬汁，茶香與奶香的完美結合！整體不會過於甜膩，炎熱的午後來一隻超解熱～搭配旁邊的貓舌頭餅乾享用也別有一番風味！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068CDD7A71691617481175.jpeg" alt="">
+                <hr>
+                <h2>Jiang Zhi醬汁</h2>
+                <h4>位於國華街的保安食藝市集中，突破大家對於飲品的想像，以調酒思維打造創意果汁飲品，裝在番茄瓶中零違和，炎炎夏日就來一杯消暑吧！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068CFE48ECD81617481700.jpeg" alt="">
+                <h4>以超趣味的番茄瓶身成為台南最新的IG人氣打卡美食，老闆以調酒的思維將水果變成無酒精的創意飲品，目前共有番茄汁、鳳梨汁2款可以選擇！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068CFF17CC971617481713.jpeg" alt="">
+                <h4>番茄汁加入4種不同的番茄，像是迷你小番茄、帥哥番茄、牛番茄、黃金416，讓番茄汁的層次更加豐富，再加入秘製的番茄湯與甘梅粉。最讓人驚喜的是還加入了番茄醬，入口感受番茄的清甜香氣非常和諧，喜愛番茄汁的人準備好快來嚐鮮啦！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068CFFCCC9B41617481724.jpeg" alt="">
+                <hr>
+                <h2>於是麵包</h2>
+                <h4>其實是台南超人氣美食於是甜甜圈的全新升級版！招牌必吃地瓜鮮奶甜甜圈外，每天有更多現做現烤的美味麵包可以選擇，像是於是可可捲、生巧克力吐司等待大家品嚐！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D0B4CCDBB1617481908.jpeg" alt="">
+                <h4>將經過時間洗滌的老宅融入了歐洲老件，充滿復古氛圍且每個角落都讓人驚喜，一推開店門就能感受麵包陣陣香氣，每一款麵包看起來都令人食指大動！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D0C12E6DB1617481921.jpeg" alt="">
+                <h4>目前每天大約會販售7種不同口味的麵包供大家選擇，之後也有機會增加不同的品項，除了必吃甜甜圈外，還有7款不能錯過的麵包推薦！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D0D3604761617481939.jpeg" alt="">
+                <hr>
+                <h2>日子食作烘焙</h2>
+                <h4>台南必吃的隱藏版美食「丹麥烤布丁」在這裡！日子食作烘焙是位在台南安南區的人氣麵包店，店內陣陣撲鼻的麵包香氣讓人口水直流！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D1CDCE7251617482189.jpeg" alt="">
+                <h4>在眾多麵包必吃的絕對是「丹麥烤布丁」，光是外型就攘人食指大動超吸睛，以手工古早味布丁搭配酥脆丹麥麵包香氣十足，忍不住想大快朵頤。</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D1DA307421617482202.jpeg" alt="">
+                <h4>一口咬下滑順的布丁與酥香的丹麥麵包完美結合，不會有過於甜膩的感受，即使不是布丁控味蕾也被一秒收服！</h4>
+                <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202104/6068D1E27E7AC1617482210.jpeg" alt="">
+            </article>
+            <aside></aside>
+        </section>
+        <footer>
+        <p>2022.06.10編輯</p>
+        </footer>
+    </body>
+</html>
